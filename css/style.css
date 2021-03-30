@@ -3,6 +3,14 @@
     src: url(../fonts/Karla/static/Karla-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Karla-bold";
+    src:url(../fonts/Karla/static/Karla-Bold.ttf);
+    font-weight: bold;
+    
+}
+
+
 header{
     display:flex;
     width: 80%;
@@ -11,7 +19,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-top: 46px;
-    padding-bottom: 28px;
+    padding-bottom: 28px; 
+    padding-left: 10%;
+    padding-right: 10%;  
+    border-bottom: 1px solid #E5E5E5;
 }
 
 
@@ -21,6 +32,7 @@ nav{
     justify-content: space-between;
     font-family: "Karla";
     font-size: 20px;
+    
 }
  main{
     width: 80%;
@@ -34,6 +46,10 @@ nav{
     margin-top: 93px;
     display: flex;
     justify-content: center;
+ }
+
+ b {
+     font-family: "Karla-bold";
  }
 
  .picture-text1 {
@@ -73,6 +89,8 @@ nav{
 .rover-description {
     font-family: "Karla";
     font-size: 24px;
+    max-width: 462px;
+    text-align: justify;
 }
 
 .followfit-picture {
@@ -82,6 +100,8 @@ nav{
 .followfit-description {
     font-family: "Karla";
     font-size: 24px;
+    max-width: 480px;
+    text-align: justify;
 }
 
 .example-picture {
@@ -135,7 +155,7 @@ h3 {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    margin-left: 130px;
+    margin: 0 auto;
     text-align: justify;
 }
 
@@ -198,7 +218,6 @@ footer {
 a:hover{
     color: #E2CFC0 
 }
-
 
 a {
     text-decoration: none;
