@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla/static/Karla-Regular.ttf);
+}
+
+header{
+    display:flex;
+    width: 80%;
+    max-width: 1200px;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 28px;
+}
+
+
+nav{
+    width: 382px;
+    display:flex;
+    justify-content: space-between;
+    font-family: "Karla";
+    font-size: 20px;
+}
+ main{
+    width: 80%;
+    max-width: 1200px;
+    margin:0 auto;
+ }
+
+ h1 {
+    font-family: "Karla";
+    font-size: 32px;
+    margin-top: 93px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .picture-text1 {
+   width: 642px;
+ }
+
+ .picture-text2{
+    width: 462px;
+    text-align: justify;
+ }
+
+.creators-picture {
+    display: flex;
+    justify-content: center;
+    padding: 93px 399px 40px 399px;
+}
+
+.creators-description {
+    font-family: "Karla";
+    font-size: 24px;
+    margin-bottom: 93px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 93px;
+}
+
+.rover-picture {
+    margin-bottom: 40px;
+}
+
+.rover-description {
+    font-family: "Karla";
+    font-size: 24px;
+}
+
+.followfit-picture {
+    margin-bottom: 40px;
+}
+
+.followfit-description {
+    font-family: "Karla";
+    font-size: 24px;
+}
+
+.example-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.example-description {
+    font-family: "Karla";
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 93px;
+    display: flex;
+    justify-content: center;
+}
+.about {
+    background-color: #E2CFC0;
+    width: 100%;
+    height: 895px;
+    font-family: "Karla";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: "Karla";
+    font-size: 32px; 
+    display: flex;
+    justify-content: center;  
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+}
+
+h3 {
+    font-family: "Karla";
+    font-size: 24px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.about-description {
+    color: #3F3F3F;
+    width: 1200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    text-align: justify;
+}
+
+h4 {
+    font-family: "Karla";
+    font-size: 24px; 
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 64px;
+}   
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 460px;
+    margin-bottom: 97px;
+}
+
+h5 {
+    font-family: "Karla";
+    font-size: 32px; 
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 87px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3F3F3F;
+    padding-bottom: 40px;
+}
+.text-center {
+    text-align: center;
+    font-family: "Karla";
+    font-size: 24px;
+    color: #3F3F3F;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.medium-LK {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding-bottom: 95px;
+}
+
+a:hover{
+    color: #E2CFC0 
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
